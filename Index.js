@@ -26,8 +26,8 @@ if (Sueldo < 85000) {
 
 let Sueldo_Final = Sueldo_Quincenal - Descuento_H - Descuento_S;
 
-console.log(`Datos personales del empleado: ${Name + ' ' +Last_Name + ' ' + ID}`);
-console.log(`Sueldo quincenal sin deducción: ${Sueldo_Quincenal} Bs. F.`);
-console.log(`Descuento de ahorro habitacional: ${Descuento_H} Bs. F.`);
-console.log(`Descuento de seguro social: ${Descuento_S} Bs. F.`);
-console.log(`Sueldo quincenal con deducción: ${Sueldo_Final} Bs.F.`);
+document.write(`Datos personales del empleado: ${Name + ' ' +Last_Name + ' ' + ID}`);
+document.write(`<br>Sueldo quincenal sin deducción: ${Sueldo_Quincenal} Bs. F.`);
+document.write(`<br>Descuento de ahorro habitacional: ${Descuento_H} Bs. F.`);
+document.write(`<br>Descuento de seguro social: ${Descuento_S} Bs. F.`);
+document.write(`<br>Sueldo quincenal con deducción: ${Sueldo_Final} Bs.F.`);
